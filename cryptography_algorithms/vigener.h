@@ -10,7 +10,7 @@ public:
 	}
 
 	char* decr(char* m, int sz) {
-		return conv(m, sz, 1);
+		return conv(m, sz, -1);
 	}
 
 protected:
